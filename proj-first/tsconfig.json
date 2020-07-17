@@ -1,0 +1,20 @@
+// {
+//     "files": [
+//         "src/main.ts",
+//         "src/greet.ts"
+//     ],
+//     "compilerOptions": {
+//         "noImplicitAny": true,
+//         "target": "es5"
+//     }
+// }
+{
+    "compilerOptions": {
+        "outDir": "./dist",
+        "allowJs": true,
+        "target": "ES5"
+    },
+    "include": [
+        "./src/**/*"
+    ]
+}
