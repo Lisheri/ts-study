@@ -12,9 +12,16 @@
     "compilerOptions": {
         "outDir": "./dist",
         "allowJs": true,
+        "moduleResolution": "node",
+        "noEmitOnError": false,
+        "module": "commonjs",
         "target": "ES5"
     },
     "include": [
         "./src/**/*"
+    ],
+    // 使用exclude过滤include中引入的文件
+    "exclude": [
+        "node_modules",
     ]
 }
